@@ -18,3 +18,11 @@
 ### Point to know
 - You can also change the path to the bytecode file using the `-d` flag.
 - `javac -d <path> <filename>.java` to compile the java file and store it in the path specified.
+
+### Package
+- Folder in which the java files are stored.
+- Sometimes we need to specify rules inorder to maintain access control.
+- We can do this by using packages.
+- A package is a collection of related classes.
+- It is used to avoid naming conflicts.
+- It is similar to a folder in a file system.
