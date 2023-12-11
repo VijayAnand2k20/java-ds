@@ -1,3 +1,5 @@
+# Day 3 - Basics of Java
+
 ## Inputs
 
 - There are methods to get input also
