@@ -5,3 +5,5 @@
 <b>[Mark-2](./Mark-2/README.md)</b> explains the basics of java from inputs to type casting and few basic programs.
 
 <b>[Mark-3](./Mark-3/README.md)</b> explains the basics of jump statements in java.
+
+<b>[Mark-4](./Mark-4/README.md)</b> explains the basics of switch case statements and enhanced switch case statements in java.
