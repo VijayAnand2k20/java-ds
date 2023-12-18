@@ -7,3 +7,5 @@
 <b>[Mark-3](./Mark-3/README.md)</b> explains the basics of jump statements in java.
 
 <b>[Mark-4](./Mark-4/README.md)</b> explains the basics of switch case statements and enhanced switch case statements in java.
+
+<b>[Mark-5](./Mark-5/README.md)</b> explains the basics of functions and its associated topics in Java.
