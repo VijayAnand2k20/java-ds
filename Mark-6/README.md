@@ -72,3 +72,38 @@ for (int i : arr) {
     System.out.println(i);
 }
 ```
+
+### Multidimensional arrays
+
+- A multidimensional array is an array of arrays.
+- It can be related to a table with rows and columns.
+- Syntax: `datatype[][] arrayName = new datatype[rowSize][columnSize];`
+- Example: `int[][] arr = new int[2][3];`
+- Here, `columnSize` is optional.
+
+Internal working:
+
+- `arr` is a reference variable that points to an array object.
+- The array object is stored in the heap memory.
+- The array object contains two elements which are also reference variables.
+- Each reference variable points to an array object.
+- Each array object contains three elements which are primitive data types.
+
+### ArrayList
+
+- It is a part of the `java.util` package.
+- It provides us with dynamic arrays in Java.
+
+Syntax:
+
+```java
+ArrayList<datatype> listName = new ArrayList<datatype>(<initial_value>);
+```
+
+- Here, `datatype` cannot be a primitive data type.
+- You must use the wrapper class of the primitive data type.
+
+#### How no size is required for this?
+- Size is actually fixed(internally).
+- When ArrayList is filled by a some amount, it creates a new array of double size(maybe) and copies all the elements from the old array to the new array.
+- Old one is deleted.

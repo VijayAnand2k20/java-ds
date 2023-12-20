@@ -5,6 +5,9 @@ public class Inputs {
     public static void main(String[] args) {
         int[] arr = new int[5];
         Scanner sc = new Scanner(System.in);
+
+        // Array of primitives
+
         // arr[0] = 23;
         // arr[1] = 24;
         // arr[2] = 25;
