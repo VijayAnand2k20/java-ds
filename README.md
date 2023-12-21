@@ -11,3 +11,5 @@
 <b>[Mark-5](./Mark-5/README.md)</b> explains the basics of functions and its associated topics in Java.
 
 <b>[Mark-6](./Mark-6/README.md)</b> explains the basics of arrays and ArrayLists in Java.
+
+<b>[Mark-7](./Mark-7/README.md)</b> explains linear search in Java.
