@@ -14,3 +14,9 @@ Given an array of integers, find the index of a given element in the array. If e
 #### Note:
 - To get the number of digits in a number, use `int(math.log10(n))+1`
 
+- Copying arrays can be simpler like:
+  ```java
+    int[] arr = {1,2,3,4,5};
+    System.arraycopy(arr, 0, arr2, 0, arr.length);
+    // Syntax: System.arraycopy(source, sourceIndex, destination, destinationIndex, length);
+  ```
