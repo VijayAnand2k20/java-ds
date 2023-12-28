@@ -10,18 +10,18 @@ public class SmallestLetter {
         int start=0, end=letters.length - 1, mid=Integer.MIN_VALUE;
         while (start<=end) {
             mid = (start) + (end-start)/2;
-            if(letters[mid] < target) {
-                start=mid+1;
-            }
-            else {
-                end = mid-1;
-            }
-            // if (target < letters[mid]) {
-            //     end = mid - 1;
+            // if(letters[mid] < target) {
+            //     start=mid+1;
             // }
             // else {
-            //     start = mid + 1;
+            //     end = mid-1;
             // }
+            if (target < letters[mid]) {
+                end = mid - 1;
+            }
+            else {
+                start = mid + 1;
+            }
         }
         return letters[start];
     }
