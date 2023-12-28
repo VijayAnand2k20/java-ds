@@ -1,11 +1,11 @@
 public class Floor {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,16,27,38,49,60};
-        int ans = Floor(arr, 40);
+        int ans = floor(arr, 40);
         System.out.println(ans);
     }
 
-    static int Floor(int[] arr, int target) {
+    static int floor(int[] arr, int target) {
         if (target < arr[0]) {
             return -1;
         }
