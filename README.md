@@ -15,3 +15,5 @@
 <b>[Mark-7](./Mark-7/README.md)</b> explains linear search in Java.
 
 <b>[Mark-8](./Mark-8/README.md)</b> explains binary search in Java.
+
+<b>[Mark-9](./Mark-9/README.md)</b> explains few sorting algorithms in Java.
