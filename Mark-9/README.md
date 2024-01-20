@@ -1,4 +1,4 @@
-# Sorting Algorithms
+****# Sorting Algorithms
 
 #### What is Sorting?
 
@@ -133,3 +133,52 @@ Use Cases:
   - Performs well on smaller lists/arrays.
   - When good when the list/array is almost sorted.
   - It takes part in hybrid sorting algorithms.
+
+## 4. Cycle Sort
+
+- When given numbers are in the range of 1 to n, use cycle sort.
+- After sorting, the elements are placed in their correct positions.
+- The index will be equal to (value-1). [As index starts from 0]
+- Key expression: `index = value - 1`
+
+Let's see an example:
+
+Consider: { 3, 5, 2, 1, 4 }
+
+- Looking at 0th index, value is 3, check if 3 is in its correct position.
+- 3 is not in its correct position, so swap 3 with the element at index 2.
+- Now, 3 is in its correct position.
+- { 2, 5, 3, 1, 4 }
+- Again, we check the same index's element as we do not know if we swapped the correct element to the current index.
+- So, we check if 2 is in its correct position.
+- 2 is not in its correct position, so swap 2 with the element at index 1.
+- Now, 2 is in its correct position.
+- { 5, 2, 3, 1, 4 }
+- Again, we check the same index's element as we do not know if we swapped the correct element to the current index.
+- So, we check if 5 is in its correct position.
+- 5 is not in its correct position, so swap 5 with the element at index 4.
+- Now, 5 is in its correct position.
+- { 4, 2, 3, 1, 5 }
+- Again, we check the same index's element as we do not know if we swapped the correct element to the current index.
+- So, we check if 4 is in its correct position.
+- 4 is not in its correct position, so swap 4 with the element at index 3.
+- Now, 4 is in its correct position.
+- { 1, 2, 3, 4, 5 }
+- Again, we check the same index's element as we do not know if we swapped the correct element to the current index.
+- So, we check if 1 is in its correct position.
+- 1 is already in its correct position.
+- { 1, 2, 3, 4, 5 }
+<br>
+<br>
+- If we want to check in range [0,n], then value will be at the index itself.
+
+**Complexity Analysis**
+
+- Worst case scenario:
+  - The above example is a worst case scenario.
+  - We made 4 swaps for 5 elements.
+  - Plus, we made 5 comparisons.
+  - Total number of operations = 4+5 = 9
+  - So, total number of operations = n-1 + n = 2n-1
+  - We ignore the less dominating term and constants.
+  - So, worst case complexity: O(n)
