@@ -1,4 +1,4 @@
-****# Sorting Algorithms
+# Sorting Algorithms
 
 #### What is Sorting?
 
@@ -171,7 +171,8 @@ Consider: { 3, 5, 2, 1, 4 }
 <br>
 <br>
 - If we want to check in range [0,n], then value will be at the index itself.
-
+<br>
+<br>
 **Complexity Analysis**
 
 - Worst case scenario:
