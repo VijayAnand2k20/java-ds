@@ -13,11 +13,13 @@ public class CycleSort {
         int i=0;
         while (i<arr.length) {
             int correct = arr[i] - 1;
-            if (correct == i) {
+            if (correct != arr[i]) {
+                swap(arr, i, correct);
+            }
+            else {
                 i++;
                 continue;
             }
-            swap(arr, i, correct);
         }
     }
 
