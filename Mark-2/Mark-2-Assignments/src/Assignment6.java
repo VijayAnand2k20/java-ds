@@ -10,7 +10,7 @@ public class Assignment6 {
             sum = a + b;
             b =a;
             a = sum;
-            System.out.println(sum);
+            System.out.print(sum + " ");
         }
     }
 }
