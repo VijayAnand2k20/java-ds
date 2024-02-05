@@ -17,3 +17,5 @@
 <b>[Mark-8](./Mark-8/README.md)</b> explains binary search in Java.
 
 <b>[Mark-9](./Mark-9/README.md)</b> explains few sorting algorithms in Java.
+
+<b>[Mark-10](./Mark-10/README.md)</b> explains the basics of strings and string builder in Java.
