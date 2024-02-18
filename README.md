@@ -19,3 +19,5 @@
 <b>[Mark-9](./Mark-9/README.md)</b> explains few sorting algorithms in Java.
 
 <b>[Mark-10](./Mark-10/README.md)</b> explains the basics of strings and string builder in Java.
+
+<b>[Mark-11](./Mark-11/README.md)</b> explains how you should approach any pattern printing problem in Java.
