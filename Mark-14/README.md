@@ -139,9 +139,13 @@ Thought Process:
 Find the nth magic number.
 Magic Number:
 1 --> 0 0 1 --> 0*(5^3) + 0*(5^2) + 1*(5^1) = 5
+
 2 --> 0 1 0 --> 0*(5^3) + 1*(5^2) + 0*(5^1) = 25
+
 3 --> 0 1 1 --> 0*(5^3) + 1*(5^2) + 1*(5^1) = 30
+
 4 --> 1 0 0 --> 1*(5^3) + 0*(5^2) + 0*(5^1) = 125
+
 5 --> 1 0 1 --> 1*(5^3) + 0*(5^2) + 1*(5^1) = 130
 
 Thought Process:
@@ -172,6 +176,7 @@ Thought Process:
   - **Formula** : Number of digits in base b of number $n$ = $int(log_b(n)) + 1$
   - $$\log_b{a} = \frac{log_xa}{log_xb}$$
   - This is the mathematical formula to calculate log base b of a number.
+  - `(int)(Math.log(num) / Math.log(b)) + 1` is the way to get num of digits
 
 ## Qn:
 Pascal's Triange
