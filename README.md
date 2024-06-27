@@ -31,3 +31,5 @@
 <b>[Mark-15](./Mark-15/README.md)</b> has some basic recursion problems.
 
 <b>[Mark-16](./Mark-16/README.md)</b> has additional recursion implementations including rotated binary search.
+
+<b>[Mark-17](./Mark-17/README.md)</b> has additional recursion implementations of patterns, insertion sort and selection sort.
