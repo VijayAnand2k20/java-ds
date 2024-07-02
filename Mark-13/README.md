@@ -35,14 +35,14 @@ This graph is called time complexity graph.
 
 Let's say for a linear search and binary search, the graph looks like this:
 
-![Linear & Binary search graph](images/linear_binary.png)
+![Linear & Binary search graph](./Mark13_Time_Space_Complexity/images/linear_binary.png)
 
 - For same larger size, the one whose complexity is O(log N) is taking less time than that of the one which has the complexity as O(N).
 
 
 Constant Time complexity means, the time taken doesn't change with the size parameter.
 
-![Constant Time Complexity](images/constant_time_complexity.png)
+![Constant Time Complexity](./Mark13_Time_Space_Complexity/images/constant_time_complexity.png)
 
 `O(1) < O(log N) < O(N)`
 
@@ -53,7 +53,7 @@ Constant Time complexity means, the time taken doesn't change with the size para
 
 3. 
    
-   ![same fashion but different looking](images/point_3.png)
+   ![same fashion but different looking](./Mark13_Time_Space_Complexity/images/point_3.png)
    i. Even though, the values of actual time are different, they are all growing linearly only
    
    ii. We don't care about the actual time taken as it can vary from machine to machine, we care about how the time grows with the input size.
