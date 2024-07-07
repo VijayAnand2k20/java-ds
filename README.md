@@ -35,3 +35,5 @@
 <b>[Mark-17](./Mark-17/README.md)</b> has additional recursion implementations of patterns, insertion sort and selection sort.
 
 <b>[Mark-18](./Mark-18/README.md)</b> has the merge sort theory and implementation.
+
+<b>[Mark-19](./Mark-19/README.md)</b> has the quick sort theory and implementation.
